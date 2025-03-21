@@ -58,7 +58,7 @@ gdjs.gameCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17049020);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17296132);
 }
 if (isConditionTrue_0) {
 }
@@ -73,7 +73,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17047876);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17297300);
 }
 if (isConditionTrue_0) {
 }
@@ -156,7 +156,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17036636);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17303940);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("tutorial"), gdjs.gameCode.GDtutorialObjects1);
@@ -344,7 +344,7 @@ gdjs.gameCode.eventsList6 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17041660);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17308812);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets\\yandere_noise.ogg", 666, true, 25, 1);
@@ -415,7 +415,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15067108);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17313132);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getScene().getVariables().getFromIndex(0).sub(1);
@@ -556,7 +556,7 @@ gdjs.copyArray(runtimeScene.getObjects("yandere_sis"), gdjs.gameCode.GDyandere_9
 
 };gdjs.gameCode.mapOfGDgdjs_9546gameCode_9546GDceiling_95959595armObjects2Objects = Hashtable.newFrom({"ceiling_arm": gdjs.gameCode.GDceiling_9595armObjects2});
 gdjs.gameCode.mapOfGDgdjs_9546gameCode_9546GDbotObjects2Objects = Hashtable.newFrom({"bot": gdjs.gameCode.GDbotObjects2});
-gdjs.gameCode.asyncCallback14524212 = function (runtimeScene, asyncObjectsList) {
+gdjs.gameCode.asyncCallback17315900 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.gameCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("ceiling_arm"), gdjs.gameCode.GDceiling_9595armObjects3);
 
@@ -578,7 +578,7 @@ gdjs.gameCode.eventsList9 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.gameCode.localVariables);
 for (const obj of gdjs.gameCode.GDceiling_9595armObjects2) asyncObjectsList.addObject("ceiling_arm", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.25), (runtimeScene) => (gdjs.gameCode.asyncCallback14524212(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.25), (runtimeScene) => (gdjs.gameCode.asyncCallback17315900(runtimeScene, asyncObjectsList)));
 }
 }
 

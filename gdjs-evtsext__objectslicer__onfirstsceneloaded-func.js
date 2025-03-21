@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__ObjectSlicer__onFirstSceneLoaded !== "undefined") {
 gdjs.evtsExt__ObjectSlicer__onFirstSceneLoaded = {};
 
 
-gdjs.evtsExt__ObjectSlicer__onFirstSceneLoaded.userFunc0xadfb50 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ObjectSlicer__onFirstSceneLoaded.userFunc0xddc788 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 // Define an new private object javascript for this extension
 gdjs._objectSlicer = {};
@@ -60,7 +60,7 @@ gdjs.evtsExt__ObjectSlicer__onFirstSceneLoaded.eventsList0 = function(runtimeSce
 {
 
 
-gdjs.evtsExt__ObjectSlicer__onFirstSceneLoaded.userFunc0xadfb50(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__ObjectSlicer__onFirstSceneLoaded.userFunc0xddc788(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

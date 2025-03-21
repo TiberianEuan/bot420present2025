@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__ObjectSlicer__ReadPixelBlue !== "undefined") {
 gdjs.evtsExt__ObjectSlicer__ReadPixelBlue = {};
 
 
-gdjs.evtsExt__ObjectSlicer__ReadPixelBlue.userFunc0xafc2e8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ObjectSlicer__ReadPixelBlue.userFunc0xddc788 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const canvas = runtimeScene.getGame().getRenderer().getCanvas();
 if (!canvas) return;
@@ -45,7 +45,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.evtsExt__ObjectSlicer__ReadPixelBlue.userFunc0xafc2e8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__ObjectSlicer__ReadPixelBlue.userFunc0xddc788(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

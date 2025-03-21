@@ -44,7 +44,7 @@ gdjs.startupCode.GDsparksObjects6= [];
 gdjs.startupCode.GDsparksObjects7= [];
 
 
-gdjs.startupCode.asyncCallback17105060 = function (runtimeScene, asyncObjectsList) {
+gdjs.startupCode.asyncCallback17404188 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.startupCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("GDEVELOP"), gdjs.startupCode.GDGDEVELOPObjects7);
 
@@ -71,14 +71,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.startupCode.localVariables);
 for (const obj of gdjs.startupCode.GDGDEVELOPObjects6) asyncObjectsList.addObject("GDEVELOP", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.startupCode.asyncCallback17105060(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.startupCode.asyncCallback17404188(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.startupCode.asyncCallback17104500 = function (runtimeScene, asyncObjectsList) {
+};gdjs.startupCode.asyncCallback17403628 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.startupCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("GDEVELOP"), gdjs.startupCode.GDGDEVELOPObjects6);
 
@@ -101,14 +101,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.startupCode.localVariables);
 for (const obj of gdjs.startupCode.GDGDEVELOPObjects5) asyncObjectsList.addObject("GDEVELOP", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.startupCode.asyncCallback17104500(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.startupCode.asyncCallback17403628(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.startupCode.asyncCallback17104572 = function (runtimeScene, asyncObjectsList) {
+};gdjs.startupCode.asyncCallback17403700 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.startupCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("GDEVELOP"), gdjs.startupCode.GDGDEVELOPObjects5);
 
@@ -131,14 +131,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.startupCode.localVariables);
 for (const obj of gdjs.startupCode.GDGDEVELOPObjects4) asyncObjectsList.addObject("GDEVELOP", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.startupCode.asyncCallback17104572(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.startupCode.asyncCallback17403700(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.startupCode.asyncCallback17103828 = function (runtimeScene, asyncObjectsList) {
+};gdjs.startupCode.asyncCallback17402956 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.startupCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("GDEVELOP"), gdjs.startupCode.GDGDEVELOPObjects4);
 
@@ -161,14 +161,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.startupCode.localVariables);
 for (const obj of gdjs.startupCode.GDGDEVELOPObjects3) asyncObjectsList.addObject("GDEVELOP", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.startupCode.asyncCallback17103828(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.startupCode.asyncCallback17402956(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.startupCode.asyncCallback17103372 = function (runtimeScene, asyncObjectsList) {
+};gdjs.startupCode.asyncCallback17402500 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.startupCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("GDEVELOP"), gdjs.startupCode.GDGDEVELOPObjects3);
 
@@ -191,14 +191,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.startupCode.localVariables);
 for (const obj of gdjs.startupCode.GDGDEVELOPObjects2) asyncObjectsList.addObject("GDEVELOP", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.startupCode.asyncCallback17103372(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.startupCode.asyncCallback17402500(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.startupCode.asyncCallback17103116 = function (runtimeScene, asyncObjectsList) {
+};gdjs.startupCode.asyncCallback17402196 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.startupCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("GDEVELOP"), gdjs.startupCode.GDGDEVELOPObjects2);
 {gdjs.evtTools.sound.playSound(runtimeScene, "radio_buzz2.ogg", false, 75, 1);
@@ -219,7 +219,7 @@ gdjs.startupCode.eventsList5 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.startupCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.startupCode.asyncCallback17103116(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.startupCode.asyncCallback17402196(runtimeScene, asyncObjectsList)));
 }
 }
 
