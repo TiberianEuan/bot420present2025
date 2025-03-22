@@ -1,7 +1,7 @@
 {
   "name": "Bot420_Present",
   "short_name": "Bot420_Present",
-  "id": "com.example.gamename",
+  "id": "eri.n2025.botpresent",
   "description": "",
   "orientation": "any",
   "start_url": "./index.html",
